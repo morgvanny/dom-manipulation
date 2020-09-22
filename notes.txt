@@ -1,0 +1,65 @@
+Data Type Primitives:
+
+String
+Boolean
+Number
+undefined
+Symbol
+BigInt
+Null
+
+Structural Types:
+Object (Array)
+Function
+
+
+
+Variable Declarations:
+
+var
+let
+const
+
+
+
+3 Steps When Creating Variables:
+
+1. Declaration
+  - Declaring something to be a variable in the first place
+2. Initialization
+  - JavaScript assigns that variable a location in memory
+3. Assignment
+  - That variable is assigned to some particular value
+
+
+var a;  (steps 1 and 2 happened)
+
+a = 10 (step 3 happened)
+
+var a; (steps 1 and 2 happened)
+a = 7
+console.log(a)
+a = 10
+
+console.log(a)
+
+
+Function Declarations Vs Expressions
+
+Declaration:
+someName() //calling before declared is ok
+function someName() {
+
+
+}
+
+starts with "function"
+are hoisted
+
+Expression
+a() // calling before declared will error out
+const a = function a(){
+
+}
+
+are not hoisted
